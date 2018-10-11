@@ -1,0 +1,28 @@
+{
+  "name": "car-heater-block",
+  "version": "1.0.0",
+  "description": "Activate your Kasa smart plugin when the weather is <= -15C.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "block",
+    "heater",
+    "smart",
+    "home",
+    "kasa",
+    "tp-link"
+  ],
+  "author": "marcusds",
+  "license": "MIT",
+  "dependencies": {
+    "fast-xml-parser": "^3.12.5",
+    "sync-request": "^6.0.0",
+    "tplink-cloud-api": "^0.3.6"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/marcusds/turn-on-my-block-heater.git"
+  }
+}
